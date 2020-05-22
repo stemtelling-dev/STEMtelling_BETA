@@ -10,6 +10,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+hr {
+  border-top: solid 4px #DDFBC8;
+}
+
 h1,
 h2,
 h3,
@@ -18,6 +22,7 @@ h5,
 h6 {
   font-weight: 300;
   margin: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -344,11 +349,15 @@ a:active {
 }
 
 /* navigation */
+.navbar {
+  background-color:  #DDFBC8 !important;
+}
 .navbar-brand {
   color: #444;
   font-size: 25px;
   margin: 0;
   line-height: 1;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .nav-link {
