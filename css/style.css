@@ -170,18 +170,18 @@ a:active {
 }
 
 .btn-main {
-  color: #fff;
+  color: black;
   border-radius: 30px;
   font-size: 18px;
   padding: 15px 40px;
   display: inline-block;
-  background-color: #f9a743;
-  box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+  background-color:  #DDFBC8;
+  box-shadow: 0 15px 40px black;
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
 }
 
 .btn-main:hover, .btn-main:focus {
-  background-color: #f9a743;
+  background-color:  #DDFBC8;
   color: #fff;
 }
 
