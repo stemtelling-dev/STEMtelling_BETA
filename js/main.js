@@ -19,7 +19,8 @@ $(window).load(function() {
 
 })(jQuery);
 
-
+ScrollReveal({ duration: 1000 })
+ScrollReveal().reveal('.section');
 
 
 
