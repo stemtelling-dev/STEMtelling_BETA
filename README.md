@@ -19,3 +19,6 @@ HOME PAGE:
 - TESTIMONIALS
 - 
 
+<!-- Google ID Client -->
+    <meta name="google-signin-client_id" content="stemtell.apps.googleusercontent.com">
+
