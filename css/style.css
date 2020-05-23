@@ -10,6 +10,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.flaticons {
+  width: 10em;
+  text-align: center;
+}
+
 hr {
   border-top: solid 4px #DDFBC8;
 }
@@ -71,10 +76,6 @@ a {
 
 .bg-1 {
   background-image: url(../images/call-to-action.jpg);
-}
-
-.bg-orange {
-  background: #f9a743;
 }
 
 .bg-opacity {
@@ -229,6 +230,8 @@ a:active {
           transform: translate(-50%, -50%);
   color: #fff;
 }
+
+
 
 @-webkit-keyframes loading {
   /*  */
