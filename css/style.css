@@ -105,6 +105,10 @@ a:active {
   text-decoration: none;
 }
 
+.sectiona {
+  padding: 80px 0;
+}
+
 .section {
   padding: 80px 0;
 }
