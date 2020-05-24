@@ -106,7 +106,7 @@ a:active {
 }
 
 .section {
-  padding: 90px 0;
+  padding: 80px 0;
 }
 
 .font-size-60 {
@@ -142,7 +142,7 @@ a:active {
 }
 
 .heading h2 {
-  color: #3c3c3c;
+  color: black;
   padding-bottom: 15px;
   text-transform: capitalize;
   font-weight: 700;
