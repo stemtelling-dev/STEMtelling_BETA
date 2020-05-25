@@ -1,7 +1,11 @@
 # STEMtelling_BETA
 
 Color Scheme:  
-Green: #DDFBC8
+- Green: #DDFBC8
+- Cream: #f2bb80
+- Yellow: #f0e16a
+- Blue: #4398d1
+- Purple: #c893fa
 
 Fonts Used:
 
