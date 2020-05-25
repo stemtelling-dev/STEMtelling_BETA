@@ -8,14 +8,17 @@ $(window).load(function() {
     $('.gallery-slider').owlCarousel(
         {
         pagination : true,
-        autoPlay : 5000,
-        itemsDesktop  :  [1500,4],
-        itemsDesktopSmall :  [979,3]
+        navigation : true,
+        navigationText: [
+            "<i class='fa fa-chevron-left'></i>",
+            "<i class='fa fa-chevron-right'></i>"
+         ],
+        autoPlay : 6000,
+        singleItem: true
         }
     );
-
     // Gallery Popup
-    $('.image-popup').magnificPopup({type:'image'});
+    // $('.image-popup').magnificPopup({type:'image'});
 
 })(jQuery);
 
