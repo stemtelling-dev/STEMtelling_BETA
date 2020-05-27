@@ -518,6 +518,14 @@ a:active {
   margin-top: 60px;
 }
 
+#ourimpact::before {
+  display: block; 
+  content: " "; 
+  margin-top: -100px;
+  height: 130px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
 
 /*--
     call-to-action start
