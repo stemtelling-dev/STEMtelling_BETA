@@ -4,7 +4,7 @@ Color Scheme:
 - Green: #DDFBC8
 - Cream: #f2bb80
 - Yellow: #f0e16a
-- Blue: #4398d1
+- gitBlue: #4398d1
 - Purple: #c893fa
 
 Fonts Used:
