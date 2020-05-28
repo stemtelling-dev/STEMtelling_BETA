@@ -24,3 +24,4 @@ $(window).load(function() {
 
 ScrollReveal({ duration: 1000 })
 ScrollReveal().reveal('.section');
+

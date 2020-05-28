@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Chart -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     
 </head>
 
@@ -219,12 +222,12 @@
                     <!-- first item -->
                     <div class="mb-40 text-center text-md-left">
                         <img class="icons rounded mx-auto d-block mb-40" src="images/mind.png" alt="icon"/>
-                        <p class="text-center"> Interest in pursuing a STEM degree and career drops between 13-17 years old.    </p>
+                        <p class="text-center"> Interest in pursuing a STEM degree and career drops between <b>13-17</b> years old.    </p>
                     </div>
                     <!-- Second item -->
                     <div class="mb-40 text-center text-md-left">
                         <img class="icons rounded mx-auto d-block mb-40" src="images/team.png" alt="icon"/>
-                        <p class="text-center">One third of Black, Latino, and Native American students enter college with an interest in studying STEM. Yet, only 16% receive a bachelor’s degrees in a STEM field. National Center for Science and Engineering Statistics</p>
+                        <p class="text-center"><b>One third</b> of Black, Latino, and Native American students enter college with an interest in studying STEM. Yet, only <b>16%</b> receive a bachelor’s degrees in a STEM field. National Center for Science and Engineering Statistics</p>
                     </div>
                     <!-- Third item -->
                     <!-- <div class="mb-40 text-center text-md-left">
@@ -236,8 +239,8 @@
                 <!-- Middle Column -->
                 <div class="col-md-4 text-center align-self-center">
                     <div class="mb-4 mb-md-0">
-                        <img class="icons rounded mx-auto d-block mb-40" src="#" alt="icon"/>
-                        <p class="text-center"> In the US, only 31% of working professionals that are currently in science and engineering fields are people of color. National Science Foundation.</p>
+                        <div id="piechart" class="mx-auto mb-0" style="width: 250px; height: 250px;"></div>
+                        <p class="text-center"> In the US, only <b>31%</b> of working professionals that are currently in science and engineering fields are people of color. National Science Foundation.</p>
                     </div>
                 </div>
                 <!-- Right Column -->
@@ -316,7 +319,7 @@
     </section>
 
     <!-- A email subscription form -->
-    <section class="call-to-action section bg-opacity bg-1 mb-80">
+    <!-- <section class="call-to-action section bg-opacity bg-1 mb-80">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-8 text-center mx-auto">
@@ -331,7 +334,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <section id="footer" style="background-color: #DDFBC8">
@@ -358,10 +361,12 @@
     <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
     <script src="plugins/magnific-popup/jquery.magnific.popup.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/piechart.js"></script>
     <!-- Google Platform Library for Single Sig-On -->
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/d78ac0adf1.js" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

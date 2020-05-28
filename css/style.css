@@ -200,6 +200,10 @@ a:active {
   font-weight: bold;
 }
 
+path {
+  stroke-width: 4;
+}
+
 /*Preloader*/
 #preloader-wrapper {
   background-color: #fff;
