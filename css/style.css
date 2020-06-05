@@ -116,6 +116,10 @@ a:active {
   padding: 80px 0;
 }
 
+.sectiona {
+  padding-top: 140px;
+  padding-bottom: 80px;
+}
 .font-size-60 {
   font-size: 60px;
   line-height: 1.2;
