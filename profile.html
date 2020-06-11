@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
     
 </head>
 
@@ -26,72 +27,157 @@
 
    <!-- Navigation bar -->
    <header>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
 
-          <!-- The company name that is seen on the top of the page -->
-            <a class="navbar-brand px-4" href="index.html"><img src="images/stlogocolors.png" style="max-width: 2em;"/></a>
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <!-- The company name that is seen on the top of the page -->
+                <a class="navbar-brand px-4" href="index.html"><img src="images/stlogocolors.png" style="max-width: 2em;"/></a>
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto text-center text-lg-left">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#whatwedo">WHAT WE DO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonialsection">TESTIMONIALS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#ourimpact">OUR IMPACT</a>
-                    </li>
-                    <!-- Google Button -->
-                    <!-- <li class="nav-item">
-                        <div class="g-signin2" data-onsuccess="onSignIn"></div>
-                    </li> -->
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#about">ABOUT</a>
-                    </li> -->
-                </ul>
-                <ul class="nav navbar-nav text-center navbar-right">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">LOG-OUT</a>
-                    </li>
-                </ul>
-                    
-            </div>
-        </nav>
-    </div>
-</header>
-<!-- Navigation bar finished -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto text-center text-lg-left">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#whatwedo">WHAT WE DO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonialsection">TESTIMONIALS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ourimpact">OUR IMPACT</a>
+                        </li>
+                        <!-- Google Button -->
+                        <!-- <li class="nav-item">
+                            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li> -->
+                    </ul>
+
+                    <!-- Log-Out Button -->
+                    <ul class="nav navbar-nav text-center navbar-right">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">LOG-OUT</a>
+                        </li>
+                    </ul>
+                        
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Navigation bar finished -->
     
     <!-- Main body -->
     <section class="section">
-        <div class="d-md-flex h-md-100 align-items-center">
+        <!-- <div class="container"> -->
+            <div class="row profile">
+                <div class="col-md-3">
+                    <div class="profile-sidebar">
+                        <!-- SIDEBAR USERPIC -->
+                        <div class="profile-userpic d-flex justify-content-center">
+                            <img src="/images/user.png" class="img-responsive" alt="">
+                        </div>
+                        <!-- END SIDEBAR USERPIC -->
 
-            <!-- First Half -->
-            
-            <div class="col-md-3 d-flex justify-content-center" style="background-color:#DDFBC8">
-                <div class="row pt-5 pb-5">
-                    <img src="/images/person.png"/>
-                    <h3>UserName</h3>
+                        <!-- SIDEBAR USER TITLE -->
+                        <div class="profile-usertitle">
+                            <div class="profile-usertitle-name">
+                                USER NAME
+                            </div>
+                            <div class="profile-usertitle-job">
+                                USER ROLE / JOB
+                            </div>
+                        </div>
+                        <!-- END SIDEBAR USER TITLE -->
+
+                        <!-- SIDEBAR BUTTONS -->
+                        <!-- <div class="profile-userbuttons">
+                            <button type="button" class="btn btn-success btn-sm">Follow</button>
+                            <button type="button" class="btn btn-danger btn-sm">Message</button>
+                        </div> -->
+                        <!-- END SIDEBAR BUTTONS -->
+
+                        <!-- SIDEBAR MENU -->
+                        <div class="profile-usermenu">
+                            <ul class="nav">
+                                <li class="active">
+                                    <a href="#">
+                                    <i class="glyphicon glyphicon-home"></i>
+                                    Overview </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <i class="glyphicon glyphicon-user"></i>
+                                    Account Settings </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                    <i class="glyphicon glyphicon-ok"></i>
+                                    Tasks </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                    <i class="glyphicon glyphicon-flag"></i>
+                                    Help </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- END MENU -->
+                       
+                   <div class="portlet light bordered">
+            <!-- STAT -->
+            <!-- <div class="row list-separated profile-stat">
+                <div class="col-md-4 col-sm-4 col-xs-6">
+                    <div class="uppercase profile-stat-title"> 37 </div>
+                    <div class="uppercase profile-stat-text"> Items </div>
                 </div>
-            </div>
-            
-            <!-- Second Half -->
-            
-            <div class="col-md-9 p-0 bg-white h-md-100">
-                <div class="d-md-flex align-items-center h-md-100 p-5 justify-content-center">
-                    Second half content here
+                <div class="col-md-4 col-sm-4 col-xs-6">
+                    <div class="uppercase profile-stat-title"> 51 </div>
+                    <div class="uppercase profile-stat-text"> Items </div>
                 </div>
-            </div>
+                <div class="col-md-4 col-sm-4 col-xs-6">
+                    <div class="uppercase profile-stat-title"> 61 </div>
+                    <div class="uppercase profile-stat-text"> Items </div>
+                </div>
+            </div> -->
+            <!-- END STAT -->
+
+            <!-- About Section -->
+                <div class="mt-2">
+                    <h4 class="profile-desc-title">About USER NAME</h4>
+                    <span class="profile-desc-text"> Lorem ipsum dolor sit amet diam nonummy nibh dolore. </span>
+                    <div class="margin-top-20 profile-desc-link">
+                        <i class="fa fa-globe"></i>
+                        <a href="#">username.com</a>
+                    </div>
+                    <div class="margin-top-20 profile-desc-link">
+                        <i class="fa fa-twitter"></i>
+                        <a href="#">@username</a>
+                    </div>
+                    <div class="margin-top-20 profile-desc-link">
+                        <i class="fa fa-facebook"></i>
+                        <a href="#">UserName</a>
+                    </div>
+                </div>
+            </div>                   
+                                                   
                 
+                
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="profile-content">
+                       Some user related content goes here...
+                    </div>
+                </div>
             </div>
+        </div>
     </section>
 
 
@@ -111,7 +197,7 @@
                     Icons made by <a href="https://www.flaticon.com/free-icon/user_2948218" title="bqlqn">bqlqn</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
     </section>
 
     <!-- Importing Scripts -->
