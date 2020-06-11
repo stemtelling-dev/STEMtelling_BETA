@@ -61,6 +61,8 @@ h4,
 p {
   font-size: 18px;
   line-height: 25px;
+  font-weight: 350;
+  color: black;
 }
 
 ul {
@@ -210,6 +212,11 @@ a:active {
 .btn-stem {
   background-color: #DDFBC8;
   border: #c893fa solid 1px;
+}
+
+.btn-stem:hover {
+  background-color: #c893fa;
+  border:  #4398d1 solid 1px;
 }
 
 path {
@@ -389,6 +396,10 @@ path {
 .nav-link {
   font-size: 14px;
   font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #4398d1 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
