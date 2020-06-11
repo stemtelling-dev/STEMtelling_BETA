@@ -6,6 +6,7 @@ Color Scheme:
 - Yellow: #f0e16a
 - gitdBlue: #4398d1
 - Purple: #c893fa
+- Light Purple: #d9b6fa
 
 Fonts Used:
 
