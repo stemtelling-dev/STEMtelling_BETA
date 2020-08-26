@@ -75,6 +75,22 @@ a {
   transition: all 0.2s ease-in-out 0s;
 }
 
+.purple {
+  color: #c893fa;
+}
+
+.blue {
+ color: #4398d1;
+}
+
+.cream {
+ color: #f2bb80;
+}
+
+.subhead {
+  font-style: italic;
+}
+
 .mt-100 {
   margin-top: 100px;
 }
