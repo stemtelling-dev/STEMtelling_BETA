@@ -598,6 +598,13 @@ path {
   display: table-cell;
 }
 
+/* Password message */
+
+#login-error-msg {
+  color: black;
+  opacity: 0;
+}
+
 #footer {
   padding: 50px;
 }
