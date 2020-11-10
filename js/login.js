@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "user" && password === "password") {
         alert("You have successfully logged in.");
-        window.location.href = '/profile.html';
+        window.location.href = 'https://stemtelling-dev.github.io/STEMtelling_BETA/profile.html';
     } else {
         loginErrorMsg.style.opacity = 1;
     }
