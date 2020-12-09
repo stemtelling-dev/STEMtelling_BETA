@@ -609,6 +609,9 @@ path {
   padding: 50px;
 }
 
+.signinbuttons {
+  display: inline-block;
+}
 /*# sourceMappingURL=maps/style.css.map */
 
 
