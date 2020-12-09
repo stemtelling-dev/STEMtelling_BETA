@@ -81,25 +81,26 @@
     <section class="sectiona">
         <div class="container">
             <div class="footer">
-                <div class="col col-md-4 mx-auto">
+                <div class="col col-md-5 mx-auto">
                     
                     <main id="main-holder">
                         <img class="mb-4" src="images/logoside.png" alt="" width="200" height="70">
-                        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-                        
-                        <div id="login-error-msg-holder">
-                          <p id="login-error-msg">Invalid username and/or password</p>
-                        </div>
+                        <h1 class="h2 mb-1 font-weight-normal">Please sign in</h1>
+
                         
                         <form id="login-form">
                           <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
                           <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
                           <!-- Forgot Username/Password -->
+                          <br>
                           <a href="#">Forgot Usename / Password</a>
-                            <div class="checkbox mb-3">
+                            <div class="checkbox mb-1">
                                 <label>
                                     <input type="checkbox" value="remember-me"> Remember me
                                 </label>
+                            </div>
+                            <div id="login-error-msg-holder">
+                                <p id="login-error-msg">Invalid username and/or password</p>
                             </div>
                           <input type="submit" value="Login" id="login-form-submit" class="btn btn-md btn-stem">
                         </form>
