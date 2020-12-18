@@ -786,4 +786,9 @@ path {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #f0e16a;
+}
+
+select.form-control:not([size]):not([multiple]) {
+  height: 50px;
 }
