@@ -601,7 +601,7 @@ path {
 /* Password message */
 
 #login-error-msg {
-  color: black;
+  color: red;
   opacity: 0;
 }
 
@@ -778,4 +778,12 @@ path {
   font-size: 19px;
   color: #abb6c4;
   margin-right: 5px;
+}
+
+.input-group-addon {
+  width: 40px !important;
+  height: 50px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
