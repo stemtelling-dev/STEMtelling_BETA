@@ -627,6 +627,12 @@ path {
   background: #DDFBC8;
 }
 
+.announcement {
+  background-color: #f2bb80;
+  padding-top: 15px;
+  margin-bottom: 2px;
+}
+
 .profile-userpic img {
   float: none;
   margin: 0 auto;
