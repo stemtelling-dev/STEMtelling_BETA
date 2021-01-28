@@ -628,8 +628,9 @@ path {
 }
 
 .announcement {
-  background-color: #f2bb80;
-  padding-top: 15px;
+  background-color: #f0e16a;
+  padding-top: 5px;
+  padding-left:12px;
   margin-bottom: 2px;
 }
 
