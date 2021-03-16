@@ -805,3 +805,9 @@ path {
 select.form-control:not([size]):not([multiple]) {
   height: 50px;
 }
+
+.photocontainer {
+  max-height: 40%;
+  max-width: 40%;
+  margin-top: 2em;
+}
