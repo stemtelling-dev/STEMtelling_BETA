@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>STEMtelling | Template</title>
+    <title>STEMtelling | Profile</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google ID Client -->
@@ -16,10 +16,11 @@
 
     <!-- Importing CSSs -->
     <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
     <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    
     
 </head>
 
@@ -175,9 +176,12 @@
                 <div class="col-md-9">
                     <div class="profile-content">
                        <!-- Some user related content goes here... -->
-                       <div class="announcement">
-                           <p>You have not taken our interest <a href="/signupquestions.html">questionare</a>.</p>
-                       </div>
+                       <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <i class="fa fa-exclamation-circle"></i><strong> Oh no!</strong> It looks like you haven't taken our questionare yet. <a href="/signupquestions.html" class="alert-link">Click Here</a>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
 
                        <!-- Dashboard Navbar -->
                        <div class="mt-4">
