@@ -725,6 +725,12 @@ path {
   min-height: 460px;
 }
 
+.card-img-top {
+  width: 40%;
+  height: 40%;
+  align-self: center;
+}
+
 .portlet {
   margin-top: 0;
   margin-bottom: 25px;
