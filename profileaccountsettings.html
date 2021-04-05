@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>STEMtelling | Template</title>
+    <title>STEMtelling | Profile</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google ID Client -->
@@ -16,10 +16,11 @@
 
     <!-- Importing CSSs -->
     <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
     <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    
     
 </head>
 
@@ -106,13 +107,13 @@
                         <!-- SIDEBAR MENU -->
                         <div class="profile-usermenu">
                             <ul class="nav">
-                                <li class="active">
-                                    <a href="#">
-                                    <i class="glyphicon glyphicon-home"></i>
-                                    Overview </a>
-                                </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="/profile.html">
+                                    <i class="glyphicon glyphicon-home"></i>
+                                    Profile </a>
+                                </li>
+                                <li class="active">
+                                    <a href="/profileaccountsettings.html">
                                     <i class="glyphicon glyphicon-user"></i>
                                     Account Settings </a>
                                 </li>
@@ -148,10 +149,10 @@
             </div> -->
             <!-- END STAT -->
 
-            <!-- About Section -->
+            <!-- Account Settings Section -->
                 <div class="mt-2">
                     <h4 class="profile-desc-title">About USER NAME</h4>
-                    <span class="profile-desc-text"> Lorem ipsum dolor sit amet diam nonummy nibh dolore. </span>
+                    <span class="profile-desc-text"> Short Decription of the User here (Come Up with Description Prompt/Limitation), along with <a href="#">Hashtag</a>, <a href="#">Hashtag</a>, <a href="#">Hashtag</a></span>
                     <div class="margin-top-20 profile-desc-link">
                         <i class="fa fa-globe"></i>
                         <a href="#">username.com</a>
@@ -175,6 +176,96 @@
                 <div class="col-md-9">
                     <div class="profile-content">
                        <!-- Some user related content goes here... -->
+                       <!-- Create Stemtell -->
+                        <div class="d-flex justify-content-end mb-3">
+                            <button class="btn btn-md btn-warning" type="button">Create Stemtell</button>
+                        </div>
+                        <!-- Alerts -->
+                       <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <i class="fa fa-exclamation-circle"></i><strong> Oh no!</strong> It looks like you haven't taken our questionare yet. <a href="/signupquestions.html" class="alert-link">Click Here</a>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+
+                       <!-- Dashboard Navbar -->
+                       <div class="mt-4">
+                            <nav class="navbar navbar-light bg-light justify-content-between">
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Survey Results</button>
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Education Opportunities</button>
+                                <!-- <button class="btn btn-sm btn-outline-secondary" type="button">Career Opportunities</button> -->
+                                <button class="btn btn-sm btn-outline-secondary" type="button">Gallery</button>
+                                <form class="form-inline">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                          </nav>
+                       </div>
+
+                       <!-- Content Window Section -->
+                       <div class="content-section mt-4">
+                           <div class="container">
+                               <div class="row">
+                                   <!-- Card -->
+                                    <div class="col col-md-4">
+                                        <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="/images/girl.png" alt="Card image cap">
+                                            <div class="card-body">
+                                            <h5 class="card-title">User Name</h5>
+                                            <p class="card-text">City, State</p>
+                                            </div>
+                                            <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">#Hashtag</li>
+                                            <li class="list-group-item">#Hashtag</li>
+                                            <li class="list-group-item">#Hashtag</li>
+                                            </ul>
+                                            <div class="card-body">
+                                            <a href="#" class="card-link">Card link</a>
+                                            <a href="#" class="card-link">Another link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card -->
+                                    <div class="col col-md-4">
+                                        <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="/images/man.png" alt="Card image cap">
+                                            <div class="card-body">
+                                            <h5 class="card-title">User Name</h5>
+                                            <p class="card-text">City, State</p>
+                                            </div>
+                                            <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">#Hashtag</li>
+                                            <li class="list-group-item">#Hashtag</li>
+                                            <li class="list-group-item">#Hashtag</li>
+                                            </ul>
+                                            <div class="card-body">
+                                            <a href="#" class="card-link">Card link</a>
+                                            <a href="#" class="card-link">Another link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card -->
+                                    <div class="col col-md-4">
+                                        <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src="/images/muslim.png" alt="Card image cap">
+                                            <div class="card-body">
+                                            <h5 class="card-title">User Name</h5>
+                                            <p class="card-text">City, State</p>
+                                            </div>
+                                            <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">#Hashtag</li>
+                                            <li class="list-group-item">#Hashtag</li>
+                                            <li class="list-group-item">#Hashtag</li>
+                                            </ul>
+                                            <div class="card-body">
+                                            <a href="#" class="card-link">Card link</a>
+                                            <a href="#" class="card-link">Another link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                               </div>
+                           </div>
+                       </div>
                     </div>
                 </div>
             </div>
