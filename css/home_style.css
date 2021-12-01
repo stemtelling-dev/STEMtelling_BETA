@@ -1,0 +1,268 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    max-width: 1052px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 48px;
+    padding-left: 48px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .ste-mtelling-connecting-student {
+    max-width: 469px;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: -2%;
+    text-align: left;
+    font-family: Work Sans, sans-serif;
+  }
+  .div-2 {
+    display: flex;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 288px;
+    width: 288px;
+    margin-top: 7px;
+  }
+  .image {
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .image-sizer {
+    width: 100%;
+    padding-top: 100%;
+    pointer-events: none;
+    font-size: 0;
+  }
+  .ste-mtelling-creates-personaliz {
+    max-width: 956px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    letter-spacing: -2%;
+    text-align: center;
+    font-family: SF Pro Display, sans-serif;
+  }
+  .div-3 {
+    display: flex;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 201px;
+    width: 201px;
+    margin-top: 7px;
+  }
+  .image-sizer-2 {
+    width: 100%;
+    padding-top: 95.52238805970148%;
+    pointer-events: none;
+    font-size: 0;
+  }
+  .div-4 {
+    display: flex;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 168px;
+    width: 168px;
+    margin-top: 7px;
+  }
+  .image-sizer-3 {
+    width: 100%;
+    padding-top: 102.97619047619047%;
+    pointer-events: none;
+    font-size: 0;
+  }
+  .students-create-and-remix-stem {
+    max-width: 339px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    letter-spacing: -2%;
+    text-align: center;
+    font-family: SF Pro Display, sans-serif;
+  }
+  .students-and-teachers-make-con {
+    max-width: 320px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    letter-spacing: -2%;
+    text-align: center;
+    font-family: SF Pro Display, sans-serif;
+  }
+  .div-5 {
+    max-width: 272px;
+    margin-top: 7px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    letter-spacing: -2%;
+    text-align: center;
+    font-family: SF Pro Display, sans-serif;
+  }
+  .div-6 {
+    display: flex;
+    max-width: 300px;
+    height: 96px;
+    width: 300px;
+    margin-top: 7px;
+    background-color: rgba(26, 24, 24, 1);
+  }
+  .wow-this-was-awesome-this-t {
+    max-width: 616px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    letter-spacing: -2%;
+    text-align: right;
+  }
+  .div-7 {
+    display: flex;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 136px;
+    width: 136px;
+    margin-top: 7px;
+  }
+  .image-sizer-4 {
+    width: 100%;
+    padding-top: 89.70588235294117%;
+    pointer-events: none;
+    font-size: 0;
+  }
+  .i-didnt-know-that-so-much-of {
+    max-width: 751px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    letter-spacing: -2%;
+    text-align: right;
+  }
+  .div-8 {
+    display: flex;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 136px;
+    width: 136px;
+    margin-top: 7px;
+  }
+  .image-sizer-5 {
+    width: 100%;
+    padding-top: 89.70588235294117%;
+    pointer-events: none;
+    font-size: 0;
+  }
+  .i-want-to-use-ste-mtelling-as {
+    max-width: 628px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    letter-spacing: -2%;
+    text-align: right;
+  }
+  .div-9 {
+    display: flex;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 136px;
+    width: 136px;
+    margin-top: 7px;
+  }
+  .image-sizer-6 {
+    width: 100%;
+    padding-top: 89.70588235294117%;
+    pointer-events: none;
+    font-size: 0;
+  }
+  .i-didnt-realize-that-i-was-i {
+    max-width: 667px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    letter-spacing: -2%;
+    text-align: right;
+  }
+  .div-10 {
+    display: flex;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 136px;
+    width: 136px;
+    margin-top: 7px;
+  }
+  .image-sizer-7 {
+    width: 100%;
+    padding-top: 89.70588235294117%;
+    pointer-events: none;
+    font-size: 0;
+  }
+  .ste-mtelling-benefits-students {
+    max-width: 459px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    letter-spacing: -2%;
+    text-align: center;
+    font-family: SF Pro Display, sans-serif;
+  }
+  .div-11 {
+    display: flex;
+    position: relative;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 197px;
+    width: 197px;
+    margin-top: 7px;
+  }
+  .image-sizer-8 {
+    width: 100%;
+    padding-top: 82.74111675126903%;
+    pointer-events: none;
+    font-size: 0;
+  }
+  .after-one-round-of-ste-mtelling {
+    max-width: 784px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    letter-spacing: -2%;
+    text-align: center;
+    font-family: SF Pro Display, sans-serif;
+  }
+  .div-12 {
+    max-width: 272px;
+    margin-top: 7px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    letter-spacing: -2%;
+    text-align: center;
+    font-family: SF Pro Display, sans-serif;
+  }
+  .div-13 {
+    display: flex;
+    max-width: 300px;
+    height: 70px;
+    width: 300px;
+    margin-top: 7px;
+    background-color: rgba(26, 24, 24, 1);
+  }
+  .div-14 {
+    max-width: 318px;
+    margin-top: 7px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    letter-spacing: -2%;
+    text-align: left;
+    font-family: SF Pro Text, sans-serif;
+  }
