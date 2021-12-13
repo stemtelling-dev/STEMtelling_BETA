@@ -1,0 +1,11 @@
+.flex-container {
+    display: flex; 
+}
+
+.flex-child{
+    flex: 1; 
+}
+
+header {
+    scroll-margin-top: 50px
+  }
